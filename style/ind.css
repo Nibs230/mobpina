@@ -17,6 +17,7 @@
     
 }
 header {
+
     background: #d123c4;
     word-wrap: break-word;
 }
@@ -37,6 +38,7 @@ word-wrap: break-word;
 @media only screen and (max-width: 767px) {
     footer {
         position: relative;
+        z-index: -1;
     }
     h1 {
        font-size: 2em;
